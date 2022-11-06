@@ -18,7 +18,7 @@ const Intro: React.FunctionComponent = () => {
             <span className="underline">
               <a
                 href="https://www.ocadogroup.com/about-us/ocado-technology"
-                className="hover:opacity-30 transition-all transition-500"
+                className="hover:opacity-30 transition-all duration-500"
               >
                 Ocado Technology
               </a>
@@ -26,6 +26,14 @@ const Intro: React.FunctionComponent = () => {
             .
           </p>
           <p className="pt-8">Portfolio in development.</p>
+          <p
+            className="px-4 py-2 bg-[#001737] rounded-lg text-white text-sm mt-4 hover:opacity-70 duration-500 transition-all hover:cursor-pointer"
+            onClick={() => {
+              window.location.href = "mailto:hello@mscripps.com";
+            }}
+          >
+            Contact me
+          </p>
         </div>
       </div>
       <Footer />
