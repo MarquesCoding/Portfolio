@@ -22,17 +22,19 @@ const Card: React.FunctionComponent<{ name: string }> = ({ name }) => {
             <div className="absolute px-4 py-2 rounded-lg mx-4 my-4 bg-[#0e1421] right-0 flex flex-row">
               <img
                 src={Spotify}
+                alt="spotify"
                 className="w-4 h-auto rounded-full mr-2 hover:opacity-75 duration-300 transiton-all hover:cursor-pointer"
                 onClick={() => {
-                  window.location.href = "https://twitter.com/MarquesCoding";
+                  window.location.href =
+                    "https://open.spotify.com/artist/55ISuK1wZoej81KOQRDzCT";
                 }}
               />
               <img
                 src={Twitter}
+                alt="twitter"
                 className="w-4 h-auto rounded-full hover:opacity-75 duration-300 transiton-all hover:cursor-pointer"
                 onClick={() => {
-                  window.location.href =
-                    "https://open.spotify.com/artist/55ISuK1wZoej81KOQRDzCT";
+                  window.location.href = "https://twitter.com/MarquesCoding";
                 }}
               />
             </div>
@@ -41,7 +43,7 @@ const Card: React.FunctionComponent<{ name: string }> = ({ name }) => {
                 {name}
                 <span className="opacity-50">#0001</span>
               </h1>
-              <span className="w-[100%] h-[0.025rem] bg-white opacity-25"></span>
+              <span className="w-[100%] h-[0.1rem] bg-white opacity-25"></span>
               <h1 className="self-start text-xs pt-2">ABOUT ME</h1>
               <p className="font-light text-xs self-start pt-2">
                 ✨<strong>He/Him</strong>
