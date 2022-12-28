@@ -46,6 +46,9 @@ const Card: React.FunctionComponent<{ name: string }> = ({ name }) => {
               <span className="w-[100%] h-[0.1rem] bg-white opacity-25"></span>
               <h1 className="self-start text-xs pt-2">ABOUT ME</h1>
               <p className="font-light text-xs self-start pt-2">
+                <strong>Hannah 💖</strong>
+              </p>
+              <p className="font-light text-xs self-start pt-2">
                 ✨<strong>He/Him</strong>
                 <i className="opacity-75"> - 22</i>✨
               </p>
